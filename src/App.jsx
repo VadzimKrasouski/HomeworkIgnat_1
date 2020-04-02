@@ -5,7 +5,7 @@ import Message from "./Message";
 const App = () => {
     return (
         <div>
-            <Message />
+            <Message/>
         </div>);
 };
 
