@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Avatar from "./Avatar";
 import SpeachBubble from "./SpeachBubble";
 
