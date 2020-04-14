@@ -1,16 +1,16 @@
 import React from 'react';
 import Avatar from "./Avatar";
-import SpeachBubble from "./SpeachBubble";
+import SpeechBubble from "./SpeechBubble";
+import styles from "./Message.module.css";
 
-class Message extends React.Component {
-    render = () => {
-        return (
-            <div className={"wrapper"}>
-                <Avatar/>
-                <SpeachBubble/>
-            </div>
-        );
-    }
-}
+const Message = () => {
+    return (
+        <div className={styles.container}>
+            <Avatar/>
+            <SpeechBubble/>
+        </div>
+    );
+};
+
 
 export default Message;

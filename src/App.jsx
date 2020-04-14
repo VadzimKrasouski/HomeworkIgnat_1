@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import styles from'./App.module.css';
 import Message from "./Message";
 
 const App = () => {
     return (
-        <div>
+        <div className={styles.wrapper}>
             <Message/>
         </div>);
 };
