@@ -6,32 +6,31 @@
     color: whitesmoke;
     font-size: 1.2rem;
     line-height: 1.2;
-    /*margin: 0 auto 40px;*/
-    max-width: 400px;
+    max-width: 150px;
     padding: 10px;
     position: relative;
     word-wrap: break-word;
-}
-
-.time {
-    font-family: Roboto, sans-serif;
-    font-size: 0.8rem;
-    color: #537f81;
+    display: flex;
+    flex-direction: column;
 }
 
 .name {
     color: #b48bb8;
     margin: 0 0 10px;
+    text-align: start;
 }
 
+.time {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8rem;
+    text-align: end;
+    color: #537f81;
+    /*margin: 4px 4px 0 350px;*/
+}
 
-
-.speechBubble p {
+.message {
+    text-align: start;
     margin: 0 0 10px;
-}
-
-.speechBubble p:last-of-type {
-    margin: 4px 4px 0 350px;
 }
 
 .speechBubble::after {
