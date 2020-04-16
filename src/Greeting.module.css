@@ -1,3 +1,11 @@
 .greeting {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    min-height: auto;
+    width: 300px;
+    background-color: #537f81;
+    border-radius: 10px;
 
 }
