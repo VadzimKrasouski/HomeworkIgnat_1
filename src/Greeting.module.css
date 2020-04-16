@@ -7,5 +7,14 @@
     width: 300px;
     background-color: #537f81;
     border-radius: 10px;
+}
 
+.counter {
+    color: #b48bb8;
+    font-size: 40px;
+}
+
+.people {
+    color: whitesmoke;
+    font-size: 20px;
 }

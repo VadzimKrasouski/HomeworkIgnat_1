@@ -34,10 +34,10 @@ class Greeting extends React.Component {
 
         return (
             <div className={styles.greeting}>
-                <span>{this.counter}</span>
+                <span className={styles.counter}>{this.counter}</span>
                 <input ref={this.newNameRef} type='text'/>
                 <button onClick={this.onAddClick}>Greeting</button>
-                <div>{listOfPeople}</div>
+                <div className={styles.people}>{listOfPeople}</div>
             </div>);
     }
 }
