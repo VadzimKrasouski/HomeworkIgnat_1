@@ -9,9 +9,9 @@ const Main = () => {
 
     return (
         <div className={styles.main}>
-           <Route exact path='/' component={Monday}/>
-           <Route  path='/monday' component={Monday}/>
-           <Route  path='/tuesday' component={Tuesday}/>
+            <Route exact path='/' component={Monday}/>
+            <Route path='/monday' component={Monday}/>
+            <Route path='/tuesday' component={Tuesday}/>
         </div>);
 };
 
