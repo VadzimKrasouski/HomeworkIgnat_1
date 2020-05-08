@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from'./Qualities.module.css';
+import styles from './Qualities.module.css';
 
 const Qualities = (props) => {
 
@@ -7,10 +7,11 @@ const Qualities = (props) => {
     let qualitiesItem = props.qualitits.map((q,index) => {
 
         // let activeClass = q.active ? styles.active : styles.default;
-        let activeClass = index === 1 ? styles.active : styles.default;
+        let activeClass = q === 'коммуннист' ? styles.active : styles.default;
 
             // return <div className={activeClass}>{q.title}</div>
-            return <div className={activeClass}>{q}</div>
+            return <div key={index} className={activeClass}>{q}</div>
+
     });
 
     return (

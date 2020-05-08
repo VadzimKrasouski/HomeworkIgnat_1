@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from "./Avatar";
-import SpeechBubble from "./SpeechBubble";
+import SpeechBubble from "../../SpeechBubble";
 import styles from "./Message.module.css";
 
 const Message = () => {

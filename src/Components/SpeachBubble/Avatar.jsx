@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from "./img/react.jpeg"
+import avatar from "../../img/react.jpeg"
 import styles from './Avatar.module.css'
 
 const Avatar = () => {

@@ -1,28 +1,26 @@
 import React from 'react';
-import styles from'./App.module.css';
-import Message from "./Message";
-import Qualities from "./Qualities";
-import Greeting from "./Greeting";
+import styles from './App.module.css';
+import Message from "./Components/SpeachBubble/Message";
+import Qualities from "./Components/Qualities/Qualities";
+import Greeting from "./Components/Greeting/Greeting";
 
 const App = () => {
     let qualities = ['рационалист', 'коммуннист', 'анимешник'];
     // let qualities = [
     //     {
     //         title: 'aaa',
-    //         active: false
+    //         id: 1
     //     },
     //     {
     //         title: 'abbbaa',
-    //         active: true
+    //         id: 2
     //     }
     // ];
     return (
         <div className={styles.wrapper}>
-            <Message/>
+            <Message />
             <Qualities qualitits={qualities}/>
             <Greeting/>
-
-
         </div>);
 };
 

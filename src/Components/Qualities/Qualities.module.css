@@ -1,7 +1,8 @@
 .qualities {
     padding: 10px;
 }
-.active {
+
+.qualities .active {
     color: red;
 }
 

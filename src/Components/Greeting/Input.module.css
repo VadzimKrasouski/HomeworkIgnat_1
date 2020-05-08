@@ -1,0 +1,9 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    border-color: red;
+}
