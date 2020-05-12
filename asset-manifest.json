@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HomeworkIgnat_1/static/css/main.e6901d70.chunk.css",
-    "main.js": "/HomeworkIgnat_1/static/js/main.2abd5ec9.chunk.js",
-    "main.js.map": "/HomeworkIgnat_1/static/js/main.2abd5ec9.chunk.js.map",
+    "main.js": "/HomeworkIgnat_1/static/js/main.7bc65aa7.chunk.js",
+    "main.js.map": "/HomeworkIgnat_1/static/js/main.7bc65aa7.chunk.js.map",
     "runtime-main.js": "/HomeworkIgnat_1/static/js/runtime-main.d7ebf781.js",
     "runtime-main.js.map": "/HomeworkIgnat_1/static/js/runtime-main.d7ebf781.js.map",
     "static/js/2.331c2a72.chunk.js": "/HomeworkIgnat_1/static/js/2.331c2a72.chunk.js",
     "static/js/2.331c2a72.chunk.js.map": "/HomeworkIgnat_1/static/js/2.331c2a72.chunk.js.map",
     "index.html": "/HomeworkIgnat_1/index.html",
-    "precache-manifest.55e3af8a0cf610848f818782eee6f7c8.js": "/HomeworkIgnat_1/precache-manifest.55e3af8a0cf610848f818782eee6f7c8.js",
+    "precache-manifest.6307557bce6aa422ec352f7ea203afa5.js": "/HomeworkIgnat_1/precache-manifest.6307557bce6aa422ec352f7ea203afa5.js",
     "service-worker.js": "/HomeworkIgnat_1/service-worker.js",
     "static/css/main.e6901d70.chunk.css.map": "/HomeworkIgnat_1/static/css/main.e6901d70.chunk.css.map",
     "static/js/2.331c2a72.chunk.js.LICENSE.txt": "/HomeworkIgnat_1/static/js/2.331c2a72.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d7ebf781.js",
     "static/js/2.331c2a72.chunk.js",
     "static/css/main.e6901d70.chunk.css",
-    "static/js/main.2abd5ec9.chunk.js"
+    "static/js/main.7bc65aa7.chunk.js"
   ]
 }
